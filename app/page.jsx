@@ -1,7 +1,7 @@
 import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/button";
-import { FiDowload } from "react-icons/fi";
+import { FiDownload } from "react-icons/fi";
 const Home = () => {
   return (
     <section className="h-full">
@@ -10,7 +10,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br />{" "}
+              Hello I am <br />
               <span className="text-accent">Duong Hung Long</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
@@ -23,7 +23,7 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span> <FiDowload className="text-xl" />
+                <span>Download CV</span> <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Socials
