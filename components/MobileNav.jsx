@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
 import { CiMenuFires } from "react-icons/ci";
 
 const links = [
