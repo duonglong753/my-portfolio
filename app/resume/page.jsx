@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 import { Description } from "@radix-ui/react-dialog";
 import {
   FaHtml5,
@@ -137,7 +137,7 @@ const skills = {
   title: "My skills",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit fuga corporis inventore iure minima, ipsam neque, consequatur at pariatur recusandae perferendis iste quo atque provident libero iusto. Quam, provident neque.",
-  skilllist: [
+  skillList: [
     {
       icon: <FaHtml5 />,
       name: "html 5",
