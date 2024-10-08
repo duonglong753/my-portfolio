@@ -123,7 +123,7 @@ const Work = () => {
                 spaceBetween={30}
                 slidesPerView={1}
                 className="xl:h-[520px] mb-12"
-                onSlideChange={handleSlidChange}
+                onSlideChange={handleSlideChange}
               >
                 {projects.map((project, index) => {
                   return (
@@ -157,3 +157,4 @@ const Work = () => {
     </motion.section>
   );
 };
+export default Work;
