@@ -31,7 +31,7 @@ const Stats = () => {
                 className="flex-1 flex gap-4 items-center justify-center xl:justify-start"
               >
                 <CountUp
-                  end={i.num}
+                  end={item.num}
                   duration={5}
                   delay={2}
                   className="text-4xl xl:text-6xl font-extrabold"
